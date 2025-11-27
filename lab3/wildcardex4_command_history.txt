@@ -1,0 +1,28 @@
+  674  cd ..
+  675  ls
+  676  mv wildcardex4_command_history.txt
+  677  mv wildcardex4_command_histoy.txt wildcardex4_command_history.txt
+  678  cat wildcardex4_command_history.txt
+  679  mkdir link_lab
+  680  cd link_lab
+  681  touch original.txt
+  682  nano original.txt
+  683  ln -s original.txt symlink.txt
+  684  ls
+  685  ln original.txt hardlink.txt
+  686  ls
+  687  nano original.txt
+  688  cat symlink.txt
+  689  cat hardlink.txt
+  690  ln -s test.txt emplink.txt
+  691  ls
+  692  cat emplink.txt
+  693  cd ..
+  694  ls
+  695  cat wilcardex4_command_history.txt
+  696  cat wildcardex4_command_history.txt
+  697  cat wildcardex4_command_history.txt >> wildcardex3_command_history.txt
+  698  cat wildcardex3_command_history.txt
+  699  rm wilcardex4_command_history.txt
+  700  rm wildcardex4_command_history.txt
+  701  history | tail -n +674 > ~/lab3/wildcardex4_command_history.txt

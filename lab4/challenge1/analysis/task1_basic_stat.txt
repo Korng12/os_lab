@@ -1,0 +1,4 @@
+Basic Statistics for access.log
+
+1. Total number of lines (total requests):
+49

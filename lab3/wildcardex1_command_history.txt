@@ -1,0 +1,121 @@
+  473  cd lab3
+  474  ls
+  475  mkdir CopingFolder
+  476  ls
+  477  mkdir Documents
+  478  mv CopingFolder CopyingFolder
+  479  ls
+  480  cd ls CopyingFolder
+  481  cd CopyingFolder
+  482  ls
+  483  cd ..
+  484  cd CopyingFolder
+  485  cd lab3
+  486  cd CopyingFolder
+  487  touch copied.txt
+  488  cp copied.txt ../Documents
+  489  cd ..
+  490  cd Documents 
+  491  ls
+  492  touch {one,two,three,four,five}.txt
+  493  ls
+  494  cp {one,two,three,four,five}.txt ../CopyingFolder
+  495  cd ..
+  496  ls
+  497  cd CopyingFolder
+  498  ls
+  499  cd ..
+  500  mkdir Desktop
+  501  ls
+  502  cp -r CopyingFolder Desktop
+  503  cd Desktop
+  504  ls
+  505  cd ..
+  506  ls
+  507  cd Documents
+  508  touch {one,two,three,four,five}_document.txt
+  509  ls
+  510  cat one_document.txt
+  511  concat one_document.txt
+  512  nano one_document.txt
+  513  nano two_document.txt
+  514  nano three_document.txt
+  515  nano four_document.txt
+  516  nano five_document.txt
+  517  mv one_document.txt docment_un.txt
+  518  ls
+  519  mv document_un.txt
+  520  mv docment_un.txt document_un.txt
+  521  mv two_document.txt document_deux.txt
+  522  mv three_document.txt document_trois.txt
+  523  mv four_document.txt document_quatre.txt
+  524  mv five_document.txt document_cinque.txt
+  525  ls
+  526  cd..
+  527  cd ..
+  528  mkdir MoveFolder
+  529  ls
+  530  cd Documents
+  531  ls
+  532  mv document_{un,deux,trois,quatre,cinque}.txt ../Documents/
+  533  ls
+  534  mv document_{un,deux,trois,quatre,cinque}.txt ../MoveFolder/
+  535  ls
+  536  cd ..
+  537  cd Desktop
+  538  mkdir FrenchFolder
+  539  ls
+  540  cd ..
+  541  cd MoveFolder
+  542  ls
+  543  mv * ../Desktop/FrenchFolder/
+  544  ls
+  545  cd ..
+  546  ls
+  547  cd Desktop
+  548  ls
+  549  cd FrenchFolder
+  550  ls
+  551  cd ..
+  552  tree
+  553  tree > ~/lab3/tree_structure_before_remove.txt
+  554  ls
+  555  cat tree_structure_before_remove.txt
+  556  cd ..
+  557  pwd
+  558  rm Desktop/FrenchFolder/document_duex.txt
+  559  ls
+  560  rm lab3/Desktop/FrenchFolder/document_duex.txt
+  561  rm lab3/Desktop/FrenchFolder/document_deux.txt
+  562  cd lab3
+  563  cd Documents 
+  564  mkdir EmptyFolder
+  565  cd EmptyFolder
+  566  touch deletefile.txt
+  567  mkdir DeleteFolder
+  568  rmdir DeleteFolder
+  569  ls
+  570  cd ..
+  571  rmdir EmptyFolder
+  572  rmdir -r EmptyFolder
+  573  rmd -r EmptyFolder
+  574  rm -r EmptyFolder
+  575  ls
+  576  cd ..
+  577  cd Deskto
+  578  cd Desktop
+  579  ls
+  580  rm FrenchFolder/*.txt
+  581  cd FrenchFolder
+  582  ls
+  583  cd ..
+  584  cd .
+  585  cd ..
+  586  tree > ~lab3/tree_structure_after_remove.txt
+  587  tree
+  588  tree > ~lab3/tree_structure_after_remove.txt
+  589  ls
+  590  cat tree_structure_after_delete.txt
+  591  cat tree_structure_after_remove.txt
+  592  history
+  593  history | tail -n 121 > ~/lab3/wildcardex1_command_history.txt

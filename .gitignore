@@ -1,0 +1,14 @@
+# Ignore system files
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.cache/
+.lesshst
+# Ignore system files
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.cache/
+.lesshst
