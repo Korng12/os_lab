@@ -1,0 +1,50 @@
+ 1371  git commit -m"update activity1,activity2"
+ 1372  git config --global user.email "chanthanmengkong@gmail.com"
+ 1373  git config --global user.name "Korng12"
+ 1374  git push origin master
+ 1375  git status
+ 1376  git push origin master
+ 1377  history | tail -n 10
+ 1378  history | tail -n 20
+ 1379  history | tail -n 50
+ 1380  ls
+ 1381  rm -r os_lab
+ 1382  rm -rf os_lab
+ 1383  ls
+ 1384  git clone https://github.com/Korng12/os_lab.git
+ 1385  ls
+ 1386  cd os_lab
+ 1387  ls
+ 1388  mv ~/class_acitiviy1 ~/class_activity2 .
+ 1389  cd
+ 1390  ls
+ 1391  git log
+ 1392  mkdir class_activity1
+ 1393  mkdir class_activity2
+ 1394  cd class_activity1
+ 1395  touch copyfilesyscall.c
+ 1396  nano copyfilesyscall.c 
+ 1397  gcc copyfilesyscall.c -o copyfilesyscall
+ 1398  ./copyfilesyscall
+ 1399  ls
+ 1400  gcc copyfilesyscall.c -o copyfilesyscall
+ 1401  ls
+ 1402  ./copyfilesyscall 
+ 1403  rm copyfilesyscall
+ 1404  ls
+ 1405  nano copyfilesyscall.c 
+ 1406  gcc copyfilesyscall.c -o copyfilesyscall
+ 1407  ./copyfilesyscall 
+ 1408  ls
+ 1409  nano copyfilesyscall.c 
+ 1410  rm copyfilesyscall
+ 1411  gcc copyfilesyscall.c -o copyfilesyscall
+ 1412  ./copyfilesyscall 
+ 1413  ls
+ 1414  nano copyfilesyscall.c
+ 1415  echo "Hello, this is a test file!" > result.txt
+ 1416  ls
+ 1417  rm copyfilesyscall
+ 1418  gcc copyfilesyscall.c -o copyfilesyscall
+ 1419  ./copyfilesyscall 
+ 1420  history | tail -n 50 > syscall_commands_history.txt

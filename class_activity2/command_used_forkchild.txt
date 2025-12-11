@@ -1,0 +1,15 @@
+ 1415  echo "Hello, this is a test file!" > result.txt
+ 1416  ls
+ 1417  rm copyfilesyscall
+ 1418  gcc copyfilesyscall.c -o copyfilesyscall
+ 1419  ./copyfilesyscall 
+ 1420  history | tail -n 50 > syscall_commands_history.txt
+ 1421  ls
+ 1422  cd ..
+ 1423  cd class_activity2
+ 1424  touch forkchild.c
+ 1425  nano forkchild.c
+ 1426  gcc forkchild -o forkchild
+ 1427  gcc forkchild.c -o forkchild
+ 1428  ./forkchild > result_forkchild.txt
+ 1429  history | tail -n 15 > command_used_forkchild.txt
